@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1519676666 source:c:\users\thoma\onedrive\documents\programs\systemsprog\lab 3\flowcontrol1\main.c
+	<stdio.h>
+	<stdlib.h>
+

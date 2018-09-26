@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\thoma\onedrive\documents\programs\systemsprog\lab 8\dynamicarrayblockhead\dynamicarrayblockhead\</FILEPATH>
+      <FILENAME>blockheadfunctions.h</FILENAME>
+      <LINE>47</LINE>
+      <COLUMN>26</COLUMN>
+    </SFA>
+    <DEFECTCODE>6386</DEFECTCODE>
+    <DESCRIPTION>Buffer overrun while writing to 'blockHead_list':  the writable size is '(unsigned int)listSize*sizeof(BLOCKHEAD_NODE)' bytes, but '48' bytes might be written.</DESCRIPTION>
+    <FUNCTION>initBlockHeadList</FUNCTION>
+    <DECORATED>?initBlockHeadList@@YAPAUBLOCKHEAD_NODE@@XZ</DECORATED>
+    <FUNCLINE>37</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\thoma\onedrive\documents\programs\systemsprog\lab 8\dynamicarrayblockhead\dynamicarrayblockhead\</FILEPATH>
+        <FILENAME>blockheadfunctions.h</FILENAME>
+        <LINE>39</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\thoma\onedrive\documents\programs\systemsprog\lab 8\dynamicarrayblockhead\dynamicarrayblockhead\</FILEPATH>
+        <FILENAME>blockheadfunctions.h</FILENAME>
+        <LINE>40</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\thoma\onedrive\documents\programs\systemsprog\lab 8\dynamicarrayblockhead\dynamicarrayblockhead\</FILEPATH>
+        <FILENAME>blockheadfunctions.h</FILENAME>
+        <LINE>40</LINE>
+        <COLUMN>36</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\thoma\onedrive\documents\programs\systemsprog\lab 8\dynamicarrayblockhead\dynamicarrayblockhead\</FILEPATH>
+        <FILENAME>blockheadfunctions.h</FILENAME>
+        <LINE>40</LINE>
+        <COLUMN>56</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\thoma\onedrive\documents\programs\systemsprog\lab 8\dynamicarrayblockhead\dynamicarrayblockhead\</FILEPATH>
+        <FILENAME>blockheadfunctions.h</FILENAME>
+        <LINE>40</LINE>
+        <COLUMN>78</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\thoma\onedrive\documents\programs\systemsprog\lab 8\dynamicarrayblockhead\dynamicarrayblockhead\</FILEPATH>
+        <FILENAME>blockheadfunctions.h</FILENAME>
+        <LINE>41</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\thoma\onedrive\documents\programs\systemsprog\lab 8\dynamicarrayblockhead\dynamicarrayblockhead\</FILEPATH>
+        <FILENAME>blockheadfunctions.h</FILENAME>
+        <LINE>42</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\thoma\onedrive\documents\programs\systemsprog\lab 8\dynamicarrayblockhead\dynamicarrayblockhead\</FILEPATH>
+        <FILENAME>blockheadfunctions.h</FILENAME>
+        <LINE>42</LINE>
+        <COLUMN>35</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\thoma\onedrive\documents\programs\systemsprog\lab 8\dynamicarrayblockhead\dynamicarrayblockhead\</FILEPATH>
+        <FILENAME>blockheadfunctions.h</FILENAME>
+        <LINE>43</LINE>
+        <COLUMN>16</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'blockHead_list' is a 0 byte array</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\thoma\onedrive\documents\programs\systemsprog\lab 8\dynamicarrayblockhead\dynamicarrayblockhead\</FILEPATH>
+        <FILENAME>blockheadfunctions.h</FILENAME>
+        <LINE>45</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\thoma\onedrive\documents\programs\systemsprog\lab 8\dynamicarrayblockhead\dynamicarrayblockhead\</FILEPATH>
+        <FILENAME>blockheadfunctions.h</FILENAME>
+        <LINE>45</LINE>
+        <COLUMN>26</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'index&lt;listSize')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\thoma\onedrive\documents\programs\systemsprog\lab 8\dynamicarrayblockhead\dynamicarrayblockhead\</FILEPATH>
+        <FILENAME>blockheadfunctions.h</FILENAME>
+        <LINE>47</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\thoma\onedrive\documents\programs\systemsprog\lab 8\dynamicarrayblockhead\dynamicarrayblockhead\</FILEPATH>
+        <FILENAME>blockheadfunctions.h</FILENAME>
+        <LINE>47</LINE>
+        <COLUMN>75</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\thoma\onedrive\documents\programs\systemsprog\lab 8\dynamicarrayblockhead\dynamicarrayblockhead\</FILEPATH>
+        <FILENAME>blockheadfunctions.h</FILENAME>
+        <LINE>48</LINE>
+        <COLUMN>27</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\thoma\onedrive\documents\programs\systemsprog\lab 8\dynamicarrayblockhead\dynamicarrayblockhead\</FILEPATH>
+        <FILENAME>blockheadfunctions.h</FILENAME>
+        <LINE>48</LINE>
+        <COLUMN>86</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\thoma\onedrive\documents\programs\systemsprog\lab 8\dynamicarrayblockhead\dynamicarrayblockhead\</FILEPATH>
+        <FILENAME>blockheadfunctions.h</FILENAME>
+        <LINE>49</LINE>
+        <COLUMN>29</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\thoma\onedrive\documents\programs\systemsprog\lab 8\dynamicarrayblockhead\dynamicarrayblockhead\</FILEPATH>
+        <FILENAME>blockheadfunctions.h</FILENAME>
+        <LINE>50</LINE>
+        <COLUMN>30</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\thoma\onedrive\documents\programs\systemsprog\lab 8\dynamicarrayblockhead\dynamicarrayblockhead\</FILEPATH>
+        <FILENAME>blockheadfunctions.h</FILENAME>
+        <LINE>51</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\thoma\onedrive\documents\programs\systemsprog\lab 8\dynamicarrayblockhead\dynamicarrayblockhead\</FILEPATH>
+        <FILENAME>blockheadfunctions.h</FILENAME>
+        <LINE>45</LINE>
+        <COLUMN>44</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'index' may equal 1</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\thoma\onedrive\documents\programs\systemsprog\lab 8\dynamicarrayblockhead\dynamicarrayblockhead\</FILEPATH>
+        <FILENAME>blockheadfunctions.h</FILENAME>
+        <LINE>45</LINE>
+        <COLUMN>26</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Continue this loop, (assume 'index&lt;listSize')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\thoma\onedrive\documents\programs\systemsprog\lab 8\dynamicarrayblockhead\dynamicarrayblockhead\</FILEPATH>
+        <FILENAME>blockheadfunctions.h</FILENAME>
+        <LINE>47</LINE>
+        <COLUMN>26</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Invalid write to 'blockHead_list', (outside its writable range)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\thoma\onedrive\documents\programs\systemsprog\lab 8\dynamicarrayblockhead\dynamicarrayblockhead\</FILEPATH>
+      <FILENAME>blockheadfunctions.h</FILENAME>
+      <LINE>47</LINE>
+      <COLUMN>26</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>Dereferencing NULL pointer 'blockHead_list'. </DESCRIPTION>
+    <FUNCTION>initBlockHeadList</FUNCTION>
+    <DECORATED>?initBlockHeadList@@YAPAUBLOCKHEAD_NODE@@XZ</DECORATED>
+    <FUNCLINE>37</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\thoma\onedrive\documents\programs\systemsprog\lab 8\dynamicarrayblockhead\dynamicarrayblockhead\</FILEPATH>
+        <FILENAME>blockheadfunctions.h</FILENAME>
+        <LINE>39</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\thoma\onedrive\documents\programs\systemsprog\lab 8\dynamicarrayblockhead\dynamicarrayblockhead\</FILEPATH>
+        <FILENAME>blockheadfunctions.h</FILENAME>
+        <LINE>40</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\thoma\onedrive\documents\programs\systemsprog\lab 8\dynamicarrayblockhead\dynamicarrayblockhead\</FILEPATH>
+        <FILENAME>blockheadfunctions.h</FILENAME>
+        <LINE>40</LINE>
+        <COLUMN>36</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\thoma\onedrive\documents\programs\systemsprog\lab 8\dynamicarrayblockhead\dynamicarrayblockhead\</FILEPATH>
+        <FILENAME>blockheadfunctions.h</FILENAME>
+        <LINE>40</LINE>
+        <COLUMN>56</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\thoma\onedrive\documents\programs\systemsprog\lab 8\dynamicarrayblockhead\dynamicarrayblockhead\</FILEPATH>
+        <FILENAME>blockheadfunctions.h</FILENAME>
+        <LINE>40</LINE>
+        <COLUMN>78</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\thoma\onedrive\documents\programs\systemsprog\lab 8\dynamicarrayblockhead\dynamicarrayblockhead\</FILEPATH>
+        <FILENAME>blockheadfunctions.h</FILENAME>
+        <LINE>41</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\thoma\onedrive\documents\programs\systemsprog\lab 8\dynamicarrayblockhead\dynamicarrayblockhead\</FILEPATH>
+        <FILENAME>blockheadfunctions.h</FILENAME>
+        <LINE>42</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\thoma\onedrive\documents\programs\systemsprog\lab 8\dynamicarrayblockhead\dynamicarrayblockhead\</FILEPATH>
+        <FILENAME>blockheadfunctions.h</FILENAME>
+        <LINE>42</LINE>
+        <COLUMN>35</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\thoma\onedrive\documents\programs\systemsprog\lab 8\dynamicarrayblockhead\dynamicarrayblockhead\</FILEPATH>
+        <FILENAME>blockheadfunctions.h</FILENAME>
+        <LINE>43</LINE>
+        <COLUMN>16</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'blockHead_list' may be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\thoma\onedrive\documents\programs\systemsprog\lab 8\dynamicarrayblockhead\dynamicarrayblockhead\</FILEPATH>
+        <FILENAME>blockheadfunctions.h</FILENAME>
+        <LINE>45</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\thoma\onedrive\documents\programs\systemsprog\lab 8\dynamicarrayblockhead\dynamicarrayblockhead\</FILEPATH>
+        <FILENAME>blockheadfunctions.h</FILENAME>
+        <LINE>45</LINE>
+        <COLUMN>26</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'index&lt;listSize')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\thoma\onedrive\documents\programs\systemsprog\lab 8\dynamicarrayblockhead\dynamicarrayblockhead\</FILEPATH>
+        <FILENAME>blockheadfunctions.h</FILENAME>
+        <LINE>47</LINE>
+        <COLUMN>26</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'blockHead_list' is dereferenced, but may still be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\thoma\onedrive\documents\programs\systemsprog\lab 8\dynamicarrayblockhead\dynamicarrayblockhead\</FILEPATH>
+      <FILENAME>blockheadfunctions.h</FILENAME>
+      <LINE>51</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>6385</DEFECTCODE>
+    <DESCRIPTION>Reading invalid data from 'blockHead_list':  the readable size is '(unsigned int)listSize*sizeof(BLOCKHEAD_NODE)' bytes, but '48' bytes may be read.</DESCRIPTION>
+    <FUNCTION>initBlockHeadList</FUNCTION>
+    <DECORATED>?initBlockHeadList@@YAPAUBLOCKHEAD_NODE@@XZ</DECORATED>
+    <FUNCLINE>37</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\thoma\onedrive\documents\programs\systemsprog\lab 8\dynamicarrayblockhead\dynamicarrayblockhead\</FILEPATH>
+        <FILENAME>blockheadfunctions.h</FILENAME>
+        <LINE>39</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\thoma\onedrive\documents\programs\systemsprog\lab 8\dynamicarrayblockhead\dynamicarrayblockhead\</FILEPATH>
+        <FILENAME>blockheadfunctions.h</FILENAME>
+        <LINE>40</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\thoma\onedrive\documents\programs\systemsprog\lab 8\dynamicarrayblockhead\dynamicarrayblockhead\</FILEPATH>
+        <FILENAME>blockheadfunctions.h</FILENAME>
+        <LINE>40</LINE>
+        <COLUMN>36</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\thoma\onedrive\documents\programs\systemsprog\lab 8\dynamicarrayblockhead\dynamicarrayblockhead\</FILEPATH>
+        <FILENAME>blockheadfunctions.h</FILENAME>
+        <LINE>40</LINE>
+        <COLUMN>56</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\thoma\onedrive\documents\programs\systemsprog\lab 8\dynamicarrayblockhead\dynamicarrayblockhead\</FILEPATH>
+        <FILENAME>blockheadfunctions.h</FILENAME>
+        <LINE>40</LINE>
+        <COLUMN>78</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\thoma\onedrive\documents\programs\systemsprog\lab 8\dynamicarrayblockhead\dynamicarrayblockhead\</FILEPATH>
+        <FILENAME>blockheadfunctions.h</FILENAME>
+        <LINE>41</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\thoma\onedrive\documents\programs\systemsprog\lab 8\dynamicarrayblockhead\dynamicarrayblockhead\</FILEPATH>
+        <FILENAME>blockheadfunctions.h</FILENAME>
+        <LINE>42</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\thoma\onedrive\documents\programs\systemsprog\lab 8\dynamicarrayblockhead\dynamicarrayblockhead\</FILEPATH>
+        <FILENAME>blockheadfunctions.h</FILENAME>
+        <LINE>42</LINE>
+        <COLUMN>35</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\thoma\onedrive\documents\programs\systemsprog\lab 8\dynamicarrayblockhead\dynamicarrayblockhead\</FILEPATH>
+        <FILENAME>blockheadfunctions.h</FILENAME>
+        <LINE>43</LINE>
+        <COLUMN>16</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'blockHead_list' is a 0 byte array</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\thoma\onedrive\documents\programs\systemsprog\lab 8\dynamicarrayblockhead\dynamicarrayblockhead\</FILEPATH>
+        <FILENAME>blockheadfunctions.h</FILENAME>
+        <LINE>45</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\thoma\onedrive\documents\programs\systemsprog\lab 8\dynamicarrayblockhead\dynamicarrayblockhead\</FILEPATH>
+        <FILENAME>blockheadfunctions.h</FILENAME>
+        <LINE>45</LINE>
+        <COLUMN>26</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'index&lt;listSize')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\thoma\onedrive\documents\programs\systemsprog\lab 8\dynamicarrayblockhead\dynamicarrayblockhead\</FILEPATH>
+        <FILENAME>blockheadfunctions.h</FILENAME>
+        <LINE>47</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\thoma\onedrive\documents\programs\systemsprog\lab 8\dynamicarrayblockhead\dynamicarrayblockhead\</FILEPATH>
+        <FILENAME>blockheadfunctions.h</FILENAME>
+        <LINE>47</LINE>
+        <COLUMN>75</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\thoma\onedrive\documents\programs\systemsprog\lab 8\dynamicarrayblockhead\dynamicarrayblockhead\</FILEPATH>
+        <FILENAME>blockheadfunctions.h</FILENAME>
+        <LINE>48</LINE>
+        <COLUMN>27</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\thoma\onedrive\documents\programs\systemsprog\lab 8\dynamicarrayblockhead\dynamicarrayblockhead\</FILEPATH>
+        <FILENAME>blockheadfunctions.h</FILENAME>
+        <LINE>48</LINE>
+        <COLUMN>86</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\thoma\onedrive\documents\programs\systemsprog\lab 8\dynamicarrayblockhead\dynamicarrayblockhead\</FILEPATH>
+        <FILENAME>blockheadfunctions.h</FILENAME>
+        <LINE>49</LINE>
+        <COLUMN>29</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\thoma\onedrive\documents\programs\systemsprog\lab 8\dynamicarrayblockhead\dynamicarrayblockhead\</FILEPATH>
+        <FILENAME>blockheadfunctions.h</FILENAME>
+        <LINE>50</LINE>
+        <COLUMN>30</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\thoma\onedrive\documents\programs\systemsprog\lab 8\dynamicarrayblockhead\dynamicarrayblockhead\</FILEPATH>
+        <FILENAME>blockheadfunctions.h</FILENAME>
+        <LINE>51</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\thoma\onedrive\documents\programs\systemsprog\lab 8\dynamicarrayblockhead\dynamicarrayblockhead\</FILEPATH>
+        <FILENAME>blockheadfunctions.h</FILENAME>
+        <LINE>45</LINE>
+        <COLUMN>44</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'index' may equal 1</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\thoma\onedrive\documents\programs\systemsprog\lab 8\dynamicarrayblockhead\dynamicarrayblockhead\</FILEPATH>
+        <FILENAME>blockheadfunctions.h</FILENAME>
+        <LINE>45</LINE>
+        <COLUMN>26</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Continue this loop, (assume 'index&lt;listSize')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\thoma\onedrive\documents\programs\systemsprog\lab 8\dynamicarrayblockhead\dynamicarrayblockhead\</FILEPATH>
+        <FILENAME>blockheadfunctions.h</FILENAME>
+        <LINE>47</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\thoma\onedrive\documents\programs\systemsprog\lab 8\dynamicarrayblockhead\dynamicarrayblockhead\</FILEPATH>
+        <FILENAME>blockheadfunctions.h</FILENAME>
+        <LINE>47</LINE>
+        <COLUMN>75</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\thoma\onedrive\documents\programs\systemsprog\lab 8\dynamicarrayblockhead\dynamicarrayblockhead\</FILEPATH>
+        <FILENAME>blockheadfunctions.h</FILENAME>
+        <LINE>48</LINE>
+        <COLUMN>27</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\thoma\onedrive\documents\programs\systemsprog\lab 8\dynamicarrayblockhead\dynamicarrayblockhead\</FILEPATH>
+        <FILENAME>blockheadfunctions.h</FILENAME>
+        <LINE>48</LINE>
+        <COLUMN>86</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\thoma\onedrive\documents\programs\systemsprog\lab 8\dynamicarrayblockhead\dynamicarrayblockhead\</FILEPATH>
+        <FILENAME>blockheadfunctions.h</FILENAME>
+        <LINE>49</LINE>
+        <COLUMN>29</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\thoma\onedrive\documents\programs\systemsprog\lab 8\dynamicarrayblockhead\dynamicarrayblockhead\</FILEPATH>
+        <FILENAME>blockheadfunctions.h</FILENAME>
+        <LINE>50</LINE>
+        <COLUMN>30</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\thoma\onedrive\documents\programs\systemsprog\lab 8\dynamicarrayblockhead\dynamicarrayblockhead\</FILEPATH>
+        <FILENAME>blockheadfunctions.h</FILENAME>
+        <LINE>51</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'index' is an In/Out argument to 'printf' (declared at c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h:946)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\thoma\onedrive\documents\programs\systemsprog\lab 8\dynamicarrayblockhead\dynamicarrayblockhead\</FILEPATH>
+        <FILENAME>blockheadfunctions.h</FILENAME>
+        <LINE>51</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Invalid read from 'blockHead_list', (outside its readable range)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\thoma\onedrive\documents\programs\systemsprog\lab 8\dynamicarrayblockhead\dynamicarrayblockhead\</FILEPATH>
+      <FILENAME>blockheadfunctions.h</FILENAME>
+      <LINE>74</LINE>
+      <COLUMN>47</COLUMN>
+    </SFA>
+    <DEFECTCODE>6308</DEFECTCODE>
+    <DESCRIPTION>'realloc' might return null pointer: assigning null pointer to 'blockHead_list', which is passed as an argument to 'realloc', will cause the original memory block to be leaked.</DESCRIPTION>
+    <FUNCTION>addMoreHeads</FUNCTION>
+    <DECORATED>?addMoreHeads@@YAXPAUBLOCKHEAD_NODE@@HHH@Z</DECORATED>
+    <FUNCLINE>65</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\thoma\onedrive\documents\programs\systemsprog\lab 8\dynamicarrayblockhead\dynamicarrayblockhead\</FILEPATH>
+      <FILENAME>blockheadfunctions.h</FILENAME>
+      <LINE>134</LINE>
+      <COLUMN>50</COLUMN>
+    </SFA>
+    <DEFECTCODE>6308</DEFECTCODE>
+    <DESCRIPTION>'realloc' might return null pointer: assigning null pointer to 'blockhead_list', which is passed as an argument to 'realloc', will cause the original memory block to be leaked.</DESCRIPTION>
+    <FUNCTION>decapitateSomeHeads</FUNCTION>
+    <DECORATED>?decapitateSomeHeads@@YAXPAUBLOCKHEAD_NODE@@HH@Z</DECORATED>
+    <FUNCLINE>97</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

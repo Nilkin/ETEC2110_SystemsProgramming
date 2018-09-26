@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1519322367 source:d:\school\programs\systemsprog\lab 2\flowcontrol_2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1519683492 source:c:\users\thoma\onedrive\documents\programs\systemsprog\lab 3\flowcontrol_2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1522117241 source:c:\users\thoma\onedrive\documents\programs\systemsprog\lab 6\simple_sdl_graphics\main.c
+	<SDL2/SDL.h>
+	<stdio.h>
+	<time.h>
+

@@ -1,0 +1,4 @@
+﻿  Final1.cpp
+c:\users\thoma\onedrive\documents\programs\systemsprog\final\final1\final1\final1.cpp(24): warning C4091: 'typedef ': ignored on left of 'littleFace' when no variable is declared
+c:\users\thoma\onedrive\documents\programs\systemsprog\final\final1\final1\final1.cpp(36): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Final1.vcxproj -> C:\Users\Thoma\OneDrive\Documents\programs\SystemsProg\Final\Final1\Debug\Final1.exe

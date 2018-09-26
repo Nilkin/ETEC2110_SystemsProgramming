@@ -1,0 +1,14 @@
+﻿  Apple.cpp
+  Board.cpp
+c:\users\thoma\onedrive\documents\programs\systemsprog\lab 9\snake_game\snake_game\snake.h(30): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\thoma\onedrive\documents\programs\systemsprog\lab 9\snake_game\snake_game\board.cpp(14): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  SNAKE_Game.cpp
+c:\users\thoma\onedrive\documents\programs\systemsprog\lab 9\snake_game\snake_game\snake.h(30): warning C4305: 'initializing': truncation from 'double' to 'float'
+  Snake.cpp
+c:\users\thoma\onedrive\documents\programs\systemsprog\lab 9\snake_game\snake_game\snake.h(30): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\thoma\onedrive\documents\programs\systemsprog\lab 9\snake_game\snake_game\snake.cpp(28): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\thoma\onedrive\documents\programs\systemsprog\lab 9\snake_game\snake_game\snake.cpp(29): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\thoma\onedrive\documents\programs\systemsprog\lab 9\snake_game\snake_game\snake.cpp(155): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  Generating Code...
+  LINK : C:\Users\Thoma\OneDrive\Documents\programs\SystemsProg\Lab 9\SNAKE_Game\Debug\SNAKE_Game.exe not found or not built by the last incremental link; performing full link
+  SNAKE_Game.vcxproj -> C:\Users\Thoma\OneDrive\Documents\programs\SystemsProg\Lab 9\SNAKE_Game\Debug\SNAKE_Game.exe

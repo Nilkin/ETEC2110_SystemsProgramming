@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1521502865 source:c:\users\thoma\onedrive\documents\programs\systemsprog\lab 4\gameoflife\main.c
+	<stdio.h>
+	<stdlib.h>
+	"LifeFunctions.h"
+
+1522108125 c:\users\thoma\onedrive\documents\programs\systemsprog\lab 4\gameoflife\lifefunctions.h
+	<time.h>
+

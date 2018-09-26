@@ -1,0 +1,13 @@
+﻿  stdafx.cpp
+  DynamicArrayBlockHead.cpp
+c:\users\thoma\onedrive\documents\programs\systemsprog\lab 8\dynamicarrayblockhead\dynamicarrayblockhead\blockheadfunctions.h(35): warning C4091: 'typedef ': ignored on left of 'BLOCKHEAD_NODE' when no variable is declared
+c:\users\thoma\onedrive\documents\programs\systemsprog\lab 8\dynamicarrayblockhead\dynamicarrayblockhead\blockheadfunctions.h(41): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\thoma\onedrive\documents\programs\systemsprog\lab 8\dynamicarrayblockhead\dynamicarrayblockhead\blockheadfunctions.h(47): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\thoma\onedrive\documents\programs\systemsprog\lab 8\dynamicarrayblockhead\dynamicarrayblockhead\blockheadfunctions.h(83): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\thoma\onedrive\documents\programs\systemsprog\lab 8\dynamicarrayblockhead\dynamicarrayblockhead\blockheadfunctions.h(86): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\thoma\onedrive\documents\programs\systemsprog\lab 8\dynamicarrayblockhead\dynamicarrayblockhead\blockheadfunctions.h(199): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\thoma\onedrive\documents\programs\systemsprog\lab 8\dynamicarrayblockhead\dynamicarrayblockhead\blockheadfunctions.h(211): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\thoma\onedrive\documents\programs\systemsprog\lab 8\dynamicarrayblockhead\dynamicarrayblockhead\blockheadfunctions.h(213): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\thoma\onedrive\documents\programs\systemsprog\lab 8\dynamicarrayblockhead\dynamicarrayblockhead\blockheadfunctions.h(218): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\thoma\onedrive\documents\programs\systemsprog\lab 8\dynamicarrayblockhead\dynamicarrayblockhead\blockheadfunctions.h(228): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  DynamicArrayBlockHead.vcxproj -> C:\Users\Thoma\OneDrive\Documents\programs\SystemsProg\Lab 8\DynamicArrayBlockHead\Debug\DynamicArrayBlockHead.exe
